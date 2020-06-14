@@ -121,7 +121,7 @@ async def set_afk(afk_e):
     global AFKREASON
     if string:
         AFKREASON = string
-        await afk_e.edit("Going AFK!"
+        await afk_e.edit("Pergi AFK!"
                          f"\nReason: `{string}`")
     else:
         await afk_e.edit("Going AFK!")
